@@ -1,0 +1,33 @@
+{
+  id: "123"
+  kind: blubz
+  payload:
+  {
+    message:
+      '''
+      # Hello, World!
+
+      My fellow humans, let's do human stuff!
+      '''
+    number: 42
+    testing: true
+    profile:
+    {
+      emails:
+      [
+        {
+          primary: false
+          email: david@de314.com
+        }
+        {
+          primary: true
+          email: david.esposito@bettercloud.com
+        }
+        {
+          primary: false
+          email: espo@bettercloud.com
+        }
+      ]
+    }
+  }
+}
